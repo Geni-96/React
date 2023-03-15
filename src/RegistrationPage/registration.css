@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+.regpage{
+    height:100vh;
+    width:100vw;
+    background-image: linear-gradient(to bottom right, #9de6f5, #7e5ed6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cover{
+    font-family: 'Poppins', sans-serif;
+    max-width: 60%;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+.cover .inputboxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cover #box{
+  outline: none;
+  border: none;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+
+  display:block;
+  width: 90%;
+  background: #e6e6e6;
+  height: 40px;
+  border-radius: 25px;
+  padding: 0 30px 0 28px;
+} 
+
+#usertype{
+  margin-bottom : 20px;
+}
+
+#gender{
+  margin-top : 10px;
+}
+#male{
+  margin-right: 30px;
+}
+
+#female{
+  margin-right: 30px;
+}
+
+#doctor{
+  margin-right: 30px;
+}
+
+#patient{
+  margin-right: 30px;
+}
+
+#submit{
+  outline: none;
+  border: none;
+  font-family: Poppins-Medium;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+
+  display: block;
+  width: 50%;
+  background: #57b846;
+  height: 40px;
+  border-radius: 25px;
+  padding: 0 30px 0 18px;
+  margin-left: 25%;
+  margin-top: 20px;
+}
